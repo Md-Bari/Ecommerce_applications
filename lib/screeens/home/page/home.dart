@@ -7,16 +7,13 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: FAppBar(
-        title: "New Title",
-        backButton: true,
-      ),
+      appBar: FAppBar(title: "New Title", backButton: true),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/image.png', // Make sure to add the image in your assets folder
+              'assets/img1.jpg', // Make sure to add the image in your assets folder
               width: 200, // Adjust size as needed
             ),
             const SizedBox(height: 10),

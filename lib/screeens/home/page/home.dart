@@ -67,7 +67,7 @@ class Home extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Image.asset(
-                    'assets/image.png', // Ensure the product image is in assets
+                    'assets/images/img1.jpg', // Ensure the product image is in assets
                     width: 200,
                   ),
                   const SizedBox(height: 10),
